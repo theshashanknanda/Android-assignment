@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.project.androidassignment">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AndroidAssignment"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".animation.intermidiate.four.ScaleDemo"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".animation.intermidiate.MoveDemo"
+            android:exported="true"/>
+        <activity
+            android:name=".animation.intermidiate.two.BlinkAnim"
+            android:exported="true" />
+        <activity
+            android:name=".animation.intermidiate.one.Rotation"
+            android:exported="true" />
+        <activity
+            android:name=".firebase.DashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".firebase.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".firebase.FirebaseAuthDemo"
+            android:exported="true" />
+        <activity
+            android:name=".xmlParcing.advanced.NewsFeedDemo"
+            android:exported="true" />
+        <activity
+            android:name=".retrofit.two.RetrofitDemo"
+            android:exported="true" />
+        <activity
+            android:name=".jsonParcing.advanced.GsonDemo"
+            android:exported="true" />
+        <activity
+            android:name=".jsonParcing.intermidiate.two.TrainAPI"
+            android:exported="true" />
+        <activity
+            android:name=".jsonParcing.intermidiate.one.CricketAPI"
+            android:exported="true" />
+        <activity
+            android:name=".room.advanced.two.AboutUsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".room.advanced.two.FacultyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".room.advanced.two.CourseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".room.advanced.two.GalleryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".room.advanced.two.SchoolHomeScreen"
+            android:exported="false" />
+        <activity
+            android:name=".room.advanced.two.SchoolSplashScreen"
+            android:exported="true" />
+        <activity
+            android:name=".room.advanced.one.DetailTask"
+            android:exported="false" />
+        <activity
+            android:name=".room.advanced.one.TaskManagement"
+            android:exported="true" />
+        <activity
+            android:name=".room.intermediate.one.LoginRoom"
+            android:exported="true" />
+        <activity
+            android:name=".room.begginer.two.DetailNotes"
+            android:exported="false" />
+        <activity
+            android:name=".room.begginer.two.NotesApp"
+            android:exported="true" />
+        <activity
+            android:name=".room.begginer.one.Todo"
+            android:exported="true" />
+        <activity
+            android:name=".sharedPreferences.advanced.one_two.CartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sharedPreferences.advanced.one_two.shopping_cart"
+            android:exported="true" />
+        <activity
+            android:name=".sharedPreferences.intermediate.two.Dashboard"
+            android:exported="true" />
+        <activity
+            android:name=".sharedPreferences.intermediate.two.LoginSessionDemop"
+            android:exported="true" />
+        <activity
+            android:name=".sharedPreferences.basic.two.SettingsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name=".sharedPreferences.basic.one.SharedPrefDemo"
+            android:exported="true" />
+        <activity
+            android:name=".permissions.three.LocationPermission"
+            android:exported="true" />
+        <activity
+            android:name=".permissions.two.CallPermission"
+            android:exported="true" />
+        <activity
+            android:name=".storage.five.HTMLFromAssets"
+            android:exported="true" />
+        <activity
+            android:name=".storage.three.ExternalReadWrite"
+            android:exported="true" />
+        <activity
+            android:name=".storage.two.InternalReadWrite"
+            android:exported="true" />
+        <activity
+            android:name=".storage.one.AppDirectoryExternal"
+            android:exported="true" />
+        <activity
+            android:name=".menu.advanced.two.BottomNav"
+            android:exported="true" />
+        <activity
+            android:name=".menu.advanced.one.GmailDrawer"
+            android:exported="true" />
+        <activity
+            android:name=".menu.intermediate.one.PopupMenu"
+            android:exported="true" />
+        <activity
+            android:name=".menu.basic.two.ListViewContextMenu"
+            android:exported="true" />
+        <activity
+            android:name=".menu.basic.one.OptionsMenuDemo"
+            android:exported="true" />
+        <activity
+            android:name=".dialog.advanced.five.EmployeeTime"
+            android:exported="true" />
+        <activity
+            android:name=".dialog.advanced.four.CustomToast"
+            android:exported="true" />
+        <activity
+            android:name=".dialog.advanced.three.DifferenceDate"
+            android:exported="true" />
+        <activity
+            android:name=".dialog.advanced.one.MultiChoiceDialog"
+            android:exported="true" />
+        <activity
+            android:name=".dialog.intermediate.five.DateDialouge"
+            android:exported="true" />
+        <activity
+            android:name=".dialog.intermediate.four.BackDialog"
+            android:exported="true" />
+        <activity
+            android:name=".dialog.intermediate.three.SingleChoiceDialog"
+            android:exported="true" />
+        <activity
+            android:name=".dialog.intermediate.two.AlertButtons"
+            android:exported="true" />
+        <activity
+            android:name=".dialog.intermediate.one.AlertDialog"
+            android:exported="true" />
+        <activity
+            android:name=".adapter.advanced.nine.TodoDemo"
+            android:exported="true" />
+        <activity
+            android:name=".adapter.advanced.eight.HorizontalScroll"
+            android:exported="true" />
+        <activity
+            android:name=".adapter.advanced.six.RatingRecylerView"
+            android:exported="true" />
+        <activity
+            android:name=".adapter.advanced.four.AddRecylerView"
+            android:exported="true" />
+        <activity
+            android:name=".adapter.advanced.three.GridView"
+            android:exported="true" />
+        <activity
+            android:name=".adapter.advanced.two.RecylerViewDemo"
+            android:exported="true" />
+        <activity
+            android:name=".adapter.advanced.one.CustomAdapter"
+            android:exported="true" />
+        <activity
+            android:name=".adapter.four.SimpleAdapter"
+            android:exported="true" />
+        <activity
+            android:name=".adapter.three.SearchViewDemo"
+            android:exported="true" />
+        <activity
+            android:name=".adapter.two.ListView"
+            android:exported="true" />
+        <activity
+            android:name=".adapter.one.Spinner"
+            android:exported="true" />
+        <activity
+            android:name=".webview.three.ActivityActivityToWebView"
+            android:exported="true" />
+        <activity
+            android:name=".webview.two.HTMLFromAssets"
+            android:exported="true" />
+        <activity
+            android:name=".webview.one.WebViewSearch"
+            android:exported="true" />
+        <activity
+            android:name=".uicontrols.advanced.eleven.Toolbar"
+            android:exported="true" />
+        <activity
+            android:name=".uicontrols.advanced.nine.ColorChanger"
+            android:exported="true" />
+        <activity
+            android:name=".uicontrols.advanced.eight.RadioColor"
+            android:exported="true" />
+        <activity
+            android:name=".uicontrols.advanced.seven.ResourceListView"
+            android:exported="true" />
+        <activity
+            android:name=".uicontrols.advanced.six.ImageAroundText"
+            android:exported="true" />
+        <activity
+            android:name=".uicontrols.advanced.five.CheckBoxTextView"
+            android:exported="true" />
+        <activity
+            android:name=".uicontrols.advanced.three.FontSizeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".uicontrols.advanced.two.ChangeBackground"
+            android:exported="true" />
+        <activity
+            android:name=".uicontrols.intemediate.eight.TableLayoutTextView"
+            android:exported="true" />
+        <activity
+            android:name=".uicontrols.intemediate.nine.PDFDemo"
+            android:exported="true" />
+        <activity
+            android:name=".uicontrols.intemediate.seven.TextViewVisibility"
+            android:exported="true" />
+        <activity
+            android:name=".uicontrols.intemediate.six.CheckNetwork"
+            android:exported="true" />
+        <activity
+            android:name=".uicontrols.intemediate.five.WebViewDemo"
+            android:exported="true" />
+        <activity
+            android:name=".uicontrols.intemediate.three.RadioButtonCalculator"
+            android:exported="true" />
+        <activity
+            android:name=".fragment.advanced.one.PassingData"
+            android:exported="true" />
+        <activity
+            android:name=".fragment.intermediate.two.LoginRegisterFragment"
+            android:exported="true" />
+        <activity
+            android:name=".fragment.intermediate.one.FragmentSplashScreen"
+            android:exported="true" />
+        <activity
+            android:name=".fragment.basic.two.FragmentRedirection"
+            android:exported="true" />
+        <activity
+            android:name=".uicontrols.intemediate.two.DifferenceNumber"
+            android:exported="false" />
+        <activity
+            android:name=".uicontrols.intemediate.two.DifferenceInput"
+            android:exported="false" />
+        <activity
+            android:name=".uicontrols.intemediate.one.ReverseNumber"
+            android:exported="false" />
+        <activity
+            android:name=".intent.intermediate.two.ImplicitIntent"
+            android:exported="false" />
+        <activity
+            android:name=".activity.advanced.two.Calculator"
+            android:exported="false" />
+        <activity
+            android:name=".activity.advanced.one.PersonData"
+            android:exported="false" />
+        <activity
+            android:name=".activity.advanced.one.PersonInput"
+            android:exported="false" />
+        <activity
+            android:name=".activity.intermediate.four.ResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.intermediate.four.IntegerSum"
+            android:exported="false" />
+        <activity
+            android:name=".activity.intermediate.three.Lifecycles"
+            android:exported="false" />
+        <activity
+            android:name=".activity.intermediate.two.SecondActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.intermediate.two.FirstActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.intermediate.one.SplashScreen"
+            android:exported="false" />
+        <activity
+            android:name=".activity.intermediate.one.MainActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

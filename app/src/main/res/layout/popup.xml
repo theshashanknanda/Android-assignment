@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/idED"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter id"
+        android:inputType="number"
+        android:layout_margin="20sp"/>
+
+    <EditText
+        android:id="@+id/firstnameED"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter firstname"
+        android:layout_margin="20sp"/>
+
+    <EditText
+        android:id="@+id/lastNameED"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter lastname"
+        android:layout_margin="20sp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/sendDataButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Data"
+        android:layout_margin="20sp"/>
+
+</LinearLayout>

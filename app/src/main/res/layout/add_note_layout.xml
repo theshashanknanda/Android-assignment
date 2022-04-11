@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <EditText
+        android:id="@+id/titleED"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="title"
+        android:layout_margin="20sp"/>
+
+    <EditText
+        android:id="@+id/descriptionED"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="description"
+        android:layout_margin="20sp"/>
+
+    <Button
+        android:id="@+id/addNoteButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Note"
+        android:layout_margin="20sp"/>
+
+</LinearLayout>

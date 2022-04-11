@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/inbox" android:title="All Inboxes"/>
+    <item android:id="@+id/primary" android:title="Primary"/>
+    <item android:id="@+id/Social" android:title="Social"/>
+    <item android:id="@+id/Promotion" android:title="Promotions"/>
+    <item android:id="@+id/Starred" android:title="Starred"/>
+    <item android:id="@+id/Snoozed" android:title="Snoozed"/>
+    <item android:id="@+id/Important" android:title="Important"/>
+    <item android:id="@+id/Sent" android:title="Sent"/>
+
+</menu>
